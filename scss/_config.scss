@@ -5,7 +5,7 @@ $home-image: url(../img/coding.jpg);
 $bg-opacity: .9;
 
 @mixin easeOut {
-  transition: all 1.5s ease-out;
+  transition: all .5s ease-out;
 }
 
 @mixin background {
@@ -27,4 +27,5 @@ $bg-opacity: .9;
       }
     }
   }
+  
 }
